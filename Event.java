@@ -17,6 +17,12 @@ public class Event  implements Serializable {
         this.date = date;
         this.event = event;
         this.location = location;
-        this.time = time;
+    }
+
+	public Event2(Team team, Date date, String event, String location, String time) {
+        mTeam = team;
+        this.date = date;
+        this.event = event;
+        this.location = location;
     }
 }
